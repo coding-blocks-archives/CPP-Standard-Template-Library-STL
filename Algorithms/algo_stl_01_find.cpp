@@ -11,7 +11,7 @@ int main() {
 
     int key ;
     cin >> key;
-    auto it = find(arr, arr + n, key);
+    auto it = find(arr, arr + n, key);//call the find fun.
     int index = it - arr;
     if (index == n) {
         cout << key << " not present";
