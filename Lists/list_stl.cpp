@@ -1,15 +1,15 @@
-#include <iostream>
-#include <list>
+#include <iostream>                         //header library
+#include <list>                             //header library
 using namespace std;
 
 
-int main() {
+int main() {                                 // driver function
     list<int> l;
 
     //Init 
-    list<int> l1{1,2,3,10,8,5};
+    list<int> l1{1,2,3,10,8,5};              //first object of list data type
     //Different Datatype
-    list<string> l2{"apple","guava","mango","banana"};
+    list<string> l2{"apple","guava","mango","banana"}; //second object of list data type
     l2.push_back("pineapple");
 
     //sort
